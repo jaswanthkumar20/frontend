@@ -1,0 +1,113 @@
+.board {
+    display: flex;
+    height: 100vh;
+    background-color: #010317;
+    background-size: cover;
+    overflow: auto;
+    justify-content: center;
+  }
+  .container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+  }
+  
+  .card-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    width: 130px;
+    height: 170px;
+    background-color: #e7dddd;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .show-btn {
+    margin-top: 1rem;
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 130px;
+  }
+  
+  .show-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  h1 {
+    margin-top: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .card {
+    margin-top: 1rem;
+  }
+  
+  .card-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .deck-cards {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+  }
+  
+  .restart-button {
+    background-color: red;
+    color: white;
+    border: 2px white solid;
+    font-size: 25px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+  }
+  
+  .result-won {
+    color: green;
+    font-family: Roboto;
+    font-size: 25px;
+  }
+  
+  .result-over {
+    color: red;
+    font-family: Roboto;
+    font-size: 30px;
+  }
+  
+  .result {
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
